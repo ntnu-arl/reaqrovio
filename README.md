@@ -1,9 +1,9 @@
 # ReAqROVIO: Refractive Aquatic ROVIO #
 
-This repository contains the implementation of the work [Online refractive camera model calibration in visual-inertial odometry](https://www.arxiv.org/abs/2409.12074). The method enables Visual-Inertial Odometry (VIO) underwater without the need of camera calibration in the water. The cameras are only calirated in air and the refractive distortion due to water is rectified online by estimating the refractive index in the state of the Iterated Extended Kalman Filter. The work is developed over ROVIO.
+This repository contains the implementation of the work [Online refractive camera model calibration in visual-inertial odometry](https://ieeexplore.ieee.org/document/10802302). The method enables Visual-Inertial Odometry (VIO) underwater without the need of camera calibration in the water. The cameras are only calirated in air and the refractive distortion due to water is rectified online by estimating the refractive index in the state of the Iterated Extended Kalman Filter. The work is developed over ROVIO.
 
 Paper:
-* https://doi.org/10.48550/arXiv.2409.12074 (IROS 2024)
+* [Online refractive camera model calibration in visual-inertial odometry](https://ieeexplore.ieee.org/document/10802302) (IROS 2024)
 
 ## Key features:
 1)  **Refractive camera model**: to enable online adaptation of the camera model to mitigate the refractive effects of underwater given the calibration in air.
